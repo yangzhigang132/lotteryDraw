@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.gongxiang.zhibanyi.mvp.ui.widget.lottery.DrawLotteryView
+            android:id="@+id/view_Lottery"
+            android:layout_margin="40dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="-0.5dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_lottery"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+         android:layout_marginLeft="4dp"
+        android:textColor="@android:color/white"
+        android:textSize="23dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/tv_title"
+        android:layout_gravity="center"
+        android:layout_width="55dp"
+        android:layout_height="55dp"/>
+        <!--<FrameLayout-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/btn_lottery"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp" />-->
+            <!--<TextView-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="23dp"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:id="@+id/tv_title"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="55dp"-->
+                <!--android:layout_height="55dp"/>-->
+        <!--</FrameLayout>-->
+    </FrameLayout>
+</merge>
